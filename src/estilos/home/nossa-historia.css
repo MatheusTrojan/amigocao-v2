@@ -1,0 +1,10 @@
+.nossa-historia__titulo {
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.nossa-historia__conteudo {
+    display: flex;
+}
