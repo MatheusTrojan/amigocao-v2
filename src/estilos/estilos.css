@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+@import url("./cabecalho.css");
+
+:root {
+    --fonte-principal: 'Poppins', sans-serif;
+
+    --fundo-principal: #F5F5F5;
+
+    --cor-primaria: #0083CF;   
+    --cor-secundaria:#38B6FF;
+    --cor-texto: #333632;
+    --branco: #F9F9F9;
+    --cor-valido:rgba(207, 253, 221, 0.815);
+    --cor-invalido: rgb(252, 187, 187);
+}
+
+body {
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
