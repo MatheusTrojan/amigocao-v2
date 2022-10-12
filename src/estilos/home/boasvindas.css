@@ -1,0 +1,80 @@
+.container {
+    background: url("../../images/PATA.svg");
+    background-repeat: no-repeat;
+    background-position: 10% 100%;
+    margin-top: 3em;
+}
+
+.boasvindas {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 700px;
+}
+
+.boasvindas__textos {
+    margin-top: 8em;
+    text-align: left;
+}
+
+.boasvindas__textos--titulo {
+    color: var(--cor-primaria);
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.boasvindas__textos--descricao {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn__link {
+    background-color: var(--fundo-principal);
+    border: 1px solid var(--cor-primaria);
+    border-radius: 4px;
+    color: var(--cor-primaria);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+}
+
+.boasvindas__imagens {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 35% 70%;
+    grid-template-rows: 150px 50% 150px;
+}
+
+.boasvindas__imagens--p, .boasvindas__imagens--logo {
+    justify-self: flex-end;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 148px;
+}
+
+.boasvindas__imagens--logo {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.boasvindas__imagens--m {
+    justify-self: flex-start;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    width: 216px;
+}
+
+.boasvindas__imagens--g {
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    grid-column: 2/2;
+    grid-row: 1/4;
+    height: 550px;
+    width: 550px;
+}
+
+.boasvindas__imagens--p {
+    grid-column: 1/1;
+    grid-row: 3/3;
+}

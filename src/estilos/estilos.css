@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
 
 @import url("./cabecalho.css");
+@import url("./home/boasvindas.css");
 
 :root {
     --fonte-principal: 'Poppins', sans-serif;
@@ -16,6 +17,7 @@
 }
 
 body {
+    background: var(--fundo-principal);
     color: var(--cor-texto);
     font-family: var(--fonte-principal);
     font-size: 16px;
