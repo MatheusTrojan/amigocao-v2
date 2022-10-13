@@ -1,0 +1,19 @@
+.home__servicos {
+    background: url("../../images/PATA.svg");
+    background-repeat: no-repeat;
+    background-position: 3% 15%;
+    margin: 0 8%;
+    padding-top: 10em;
+}
+
+.servicos__textos {
+    align-self: center;
+    max-width: 35%;
+    margin-right: 3rem;
+}
+
+.servicos__video {
+    border-radius: 1rem;
+}
+
+

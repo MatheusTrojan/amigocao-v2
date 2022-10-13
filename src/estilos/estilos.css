@@ -3,6 +3,7 @@
 @import url("./cabecalho.css");
 @import url("./home/boasvindas.css");
 @import url("./home/nossa-historia.css");
+@import url("./home/servicos.css");
 
 :root {
     --fonte-principal: 'Poppins', sans-serif;

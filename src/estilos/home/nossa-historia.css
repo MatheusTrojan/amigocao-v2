@@ -1,10 +1,30 @@
-.nossa-historia__titulo {
+.home__historia{
+    background: url("../../images/PATA.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    margin: 0 8%;
+    padding-top: 5em;
+}
+
+.home__subtitulo {
     color: var(--cor-primaria);
     font-size: 2rem;
     font-weight: 600;
+    margin-bottom: 2em;
     text-align: center;
 }
 
-.nossa-historia__conteudo {
+.home__conteudo {
     display: flex;
+    justify-content: space-evenly;
 }
+
+.historia__imagem {
+    margin-right: 8em;
+}
+
+.historia__textos {
+    align-self: center;
+    max-width: 35%;
+}
+
