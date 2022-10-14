@@ -1,3 +1,7 @@
+@import url("./nossa-historia.css");
+@import url("./home-servicos.css");
+@import url("./home-contato.css");
+
 .container {
     margin-top: 3em;
 }

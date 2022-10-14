@@ -1,0 +1,30 @@
+.rodape {
+    text-align: center;
+}
+
+.rodape__logo--imagem {
+    width: 59px;
+    margin-bottom: 0.25rem;
+}
+
+.rodape__logo--texto {
+    color: var(--cor-secundaria);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.rodape__texto {
+    font-size: 1.1em;
+    margin: 1em 0;
+}
+
+.rodape__redes {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.rodape__redes--icone img {
+    min-width: 1.75em;
+}

@@ -1,0 +1,33 @@
+.home__contato {
+    background: var(--cor-primaria);
+    background-image: url("../../images/patinhas.svg"), url("../../images/patinhas2.svg");
+    background-repeat: no-repeat;
+    background-position: 10% 50%, 90% 50%;
+    background-size: 165px;
+    padding: 2em;
+    margin: 3em 0 1em 0;
+    text-align: center;
+}
+
+.contato__titulo {
+    color: var(--branco);
+    font-size: 2rem;
+}
+
+.contato__botoes {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+.contato__botao {
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--branco);
+    border-radius: 4px;
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.5em 2em;
+    text-transform: uppercase;
+}
