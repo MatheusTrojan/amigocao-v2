@@ -3,6 +3,7 @@
 @import url("./cabecalho.css");
 @import url("./home/boasvindas.css");
 @import url("./equipe/equipe.css");
+@import url("./servicos/servicos.css");
 @import url("./rodape.css");
 
 :root {
@@ -13,7 +14,7 @@
     --cor-primaria: #0083CF;   
     --cor-secundaria:#38B6FF;
     --cor-texto: #333632;
-    --branco: #F9F9F9;
+    --branco: #F5F5F5;
     --cor-valido:rgba(207, 253, 221, 0.815);
     --cor-invalido: rgb(252, 187, 187);
 }
@@ -24,4 +25,12 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+}
+
+.main__subtitulo {
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3em 0 2em 0;
+    text-align: center;
 }

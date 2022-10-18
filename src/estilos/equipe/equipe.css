@@ -1,18 +1,10 @@
 .equipe {
     align-items: center;
-    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     margin: 0 4.5em;
-}
-
-.equipe__subtitulo {
-    color: var(--cor-primaria);
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 3em 0 2em 0;
-    text-align: center;
 }
 
 .equipe__ficha {
