@@ -3,8 +3,8 @@
     background-image: url("../../images/patinhas.svg"), url("../../images/patinhas2.svg");
     background-repeat: no-repeat;
     background-position: 10% 50%, 90% 50%;
-    background-size: 165px;
-    padding: 2em;
+    background-size: 185px;
+    padding: 2.25em;
     margin: 3em 0 1em 0;
     text-align: center;
 }
