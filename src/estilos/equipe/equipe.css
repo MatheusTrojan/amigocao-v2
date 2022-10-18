@@ -1,0 +1,42 @@
+.equipe {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0 4.5em;
+}
+
+.equipe__subtitulo {
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3em 0;
+    text-align: center;
+}
+
+.equipe__ficha {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.equipe__ficha--imagem {
+
+}
+
+.equipe__ficha--nome {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.equipe__ficha--dados {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1330px) {
+    .equipe {
+        margin: 0 0.5rem;
+    }
+}

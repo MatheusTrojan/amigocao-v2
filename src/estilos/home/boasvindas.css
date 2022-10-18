@@ -83,3 +83,18 @@
     grid-column: 1/1;
     grid-row: 3/3;
 }
+
+@media screen and (max-width: 1660px) {
+    .boasvindas__imagens--m {
+        width: 180px;
+    }
+
+    .boasvindas__imagens--p {
+        width: 125px;
+    }
+
+    .boasvindas__imagens--g {
+        height: 475px;
+        width: 475px;
+    }
+}
