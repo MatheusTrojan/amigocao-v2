@@ -1,0 +1,67 @@
+.contato__tabela__whats {
+    justify-self: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__whats {
+    align-self: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 4.5rem;
+}
+
+.contato__botao--whats {
+    align-self: center;
+    background: rgba(73, 200, 88, 1);
+    border: none;
+    border-radius: 0.25rem;
+    color: var(--branco);
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.contato__botao--whats::before {
+    content: url("../../images/whatsapp.png");
+}
+
+.contato__botao--whats:hover {
+    background: green;
+}
+
+.contato__tabela {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.tabela {
+    margin: 1rem;
+}
+
+thead {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+tr {
+    vertical-align: middle;
+}
+
+td, th {
+    border: none;
+    border-collapse: collapse;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+tr:nth-child(3) {
+    border-bottom: 1px solid var(--cor-primaria);
+}
+

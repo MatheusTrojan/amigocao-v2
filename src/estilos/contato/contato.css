@@ -1,0 +1,17 @@
+@import url("../contato/contato__formulario.css");
+@import url("../contato/contato__tabela.css");
+
+.formulario__tabela {
+    display: grid;
+    grid-template-columns: 60% 40%;    
+    margin-top: 5rem;
+}
+
+.contato__subtitulo {
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}

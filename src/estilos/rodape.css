@@ -1,10 +1,11 @@
 .rodape {
+    background: #F5F5F5;
+    padding: 1em 0;
     text-align: center;
 }
 
 .rodape__logo--imagem {
     width: 59px;
-    margin-bottom: 0.25rem;
 }
 
 .rodape__logo--texto {
@@ -22,7 +23,6 @@
     display: flex;
     justify-content: center;
     gap: 2em;
-    margin-bottom: 1em;
 }
 
 .rodape__redes--icone img {
